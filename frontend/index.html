@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsBrief AI</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>NewsBrief AI</h1>
+
+        <p>
+            Paste a news article URL and generate an AI-powered summary.
+        </p>
+
+        <input
+            type="text"
+            id="urlInput"
+            placeholder="Paste article URL..."
+        >
+
+        <button id="summarizeBtn">
+
+            Summarize
+
+        </button>
+
+        <div id="loading">
+
+            Generating summary...
+
+        </div>
+
+        <textarea
+            id="summaryOutput"
+            readonly
+        ></textarea>
+
+        <button id="copyBtn">
+
+            Copy Summary
+
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
